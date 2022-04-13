@@ -1,4 +1,6 @@
 # WordClockScreenSaver
-Full project from [Trevor Philips](https://github.com/trevphil)' great article on [BetterProgramming](https://betterprogramming.pub/how-to-make-a-custom-screensaver-for-mac-os-x-7e1650c13bd8) entitled "*How to create a custom screensaver for Mac OS X*".
+This project consists in implementing in Swift the [WordClock](https://github.com/johanremilien/WordClock).
+
+🏗 Work in progress..
 
 (Fork of [PongScreenSaver](https://github.com/johanremilien/PongScreenSaver.git) with [ForkThatGit](https://github.com/johanremilien/ForkThatGit))
