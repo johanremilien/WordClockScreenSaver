@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04199B38277B577D007A961D /* PongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B37277B577D007A961D /* PongView.swift */; };
+		04199B38277B577D007A961D /* WordClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B37277B577D007A961D /* WordClockView.swift */; };
 		04199B41277B586E007A961D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B40277B586E007A961D /* AppDelegate.swift */; };
 		04199B43277B586E007A961D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B42277B586E007A961D /* ViewController.swift */; };
 		04199B45277B587A007A961D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04199B44277B587A007A961D /* Assets.xcassets */; };
 		04199B48277B587A007A961D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04199B46277B587A007A961D /* Main.storyboard */; };
-		04199B50277B5941007A961D /* PongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B37277B577D007A961D /* PongView.swift */; };
+		04199B50277B5941007A961D /* WordClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04199B37277B577D007A961D /* WordClockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04199B28277B573E007A961D /* Pong.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pong.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		04199B28277B573E007A961D /* WordClock.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordClock.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		04199B2F277B573E007A961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04199B37277B577D007A961D /* PongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongView.swift; sourceTree = "<group>"; };
-		04199B3E277B586E007A961D /* PongDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PongDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04199B37277B577D007A961D /* WordClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordClockView.swift; sourceTree = "<group>"; };
+		04199B3E277B586E007A961D /* WordClockDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordClockDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04199B40277B586E007A961D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04199B42277B586E007A961D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04199B44277B587A007A961D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04199B47277B587A007A961D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04199B49277B587A007A961D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04199B4A277B587A007A961D /* PongDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PongDebug.entitlements; sourceTree = "<group>"; };
+		04199B4A277B587A007A961D /* WordClockDebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WordClockDebug.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,8 +49,8 @@
 		04199B1E277B573E007A961D = {
 			isa = PBXGroup;
 			children = (
-				04199B2A277B573E007A961D /* Pong */,
-				04199B3F277B586E007A961D /* PongDebug */,
+				04199B2A277B573E007A961D /* WordClock */,
+				04199B3F277B586E007A961D /* WordClockDebug */,
 				04199B29277B573E007A961D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,22 +58,22 @@
 		04199B29277B573E007A961D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04199B28277B573E007A961D /* Pong.saver */,
-				04199B3E277B586E007A961D /* PongDebug.app */,
+				04199B28277B573E007A961D /* WordClock.saver */,
+				04199B3E277B586E007A961D /* WordClockDebug.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		04199B2A277B573E007A961D /* Pong */ = {
+		04199B2A277B573E007A961D /* WordClock */ = {
 			isa = PBXGroup;
 			children = (
 				04199B2F277B573E007A961D /* Info.plist */,
-				04199B37277B577D007A961D /* PongView.swift */,
+				04199B37277B577D007A961D /* WordClockView.swift */,
 			);
-			path = Pong;
+			path = WordClock;
 			sourceTree = "<group>";
 		};
-		04199B3F277B586E007A961D /* PongDebug */ = {
+		04199B3F277B586E007A961D /* WordClockDebug */ = {
 			isa = PBXGroup;
 			children = (
 				04199B40277B586E007A961D /* AppDelegate.swift */,
@@ -81,9 +81,9 @@
 				04199B44277B587A007A961D /* Assets.xcassets */,
 				04199B46277B587A007A961D /* Main.storyboard */,
 				04199B49277B587A007A961D /* Info.plist */,
-				04199B4A277B587A007A961D /* PongDebug.entitlements */,
+				04199B4A277B587A007A961D /* WordClockDebug.entitlements */,
 			);
-			path = PongDebug;
+			path = WordClockDebug;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,9 +99,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		04199B27277B573E007A961D /* Pong */ = {
+		04199B27277B573E007A961D /* WordClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04199B32277B573E007A961D /* Build configuration list for PBXNativeTarget "Pong" */;
+			buildConfigurationList = 04199B32277B573E007A961D /* Build configuration list for PBXNativeTarget "WordClock" */;
 			buildPhases = (
 				04199B23277B573E007A961D /* Headers */,
 				04199B24277B573E007A961D /* Sources */,
@@ -112,14 +112,14 @@
 			);
 			dependencies = (
 			);
-			name = Pong;
-			productName = Pong;
-			productReference = 04199B28277B573E007A961D /* Pong.saver */;
+			name = WordClock;
+			productName = WordClock;
+			productReference = 04199B28277B573E007A961D /* WordClock.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
-		04199B3D277B586E007A961D /* PongDebug */ = {
+		04199B3D277B586E007A961D /* WordClockDebug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04199B4B277B587A007A961D /* Build configuration list for PBXNativeTarget "PongDebug" */;
+			buildConfigurationList = 04199B4B277B587A007A961D /* Build configuration list for PBXNativeTarget "WordClockDebug" */;
 			buildPhases = (
 				04199B3A277B586E007A961D /* Sources */,
 				04199B3B277B586E007A961D /* Frameworks */,
@@ -129,9 +129,9 @@
 			);
 			dependencies = (
 			);
-			name = PongDebug;
-			productName = PongDebug;
-			productReference = 04199B3E277B586E007A961D /* PongDebug.app */;
+			name = WordClockDebug;
+			productName = WordClockDebug;
+			productReference = 04199B3E277B586E007A961D /* WordClockDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04199B22277B573E007A961D /* Build configuration list for PBXProject "Pong" */;
+			buildConfigurationList = 04199B22277B573E007A961D /* Build configuration list for PBXProject "WordClock" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,8 +165,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04199B27277B573E007A961D /* Pong */,
-				04199B3D277B586E007A961D /* PongDebug */,
+				04199B27277B573E007A961D /* WordClock */,
+				04199B3D277B586E007A961D /* WordClockDebug */,
 			);
 		};
 /* End PBXProject section */
@@ -195,7 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04199B38277B577D007A961D /* PongView.swift in Sources */,
+				04199B38277B577D007A961D /* WordClockView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04199B43277B586E007A961D /* ViewController.swift in Sources */,
-				04199B50277B5941007A961D /* PongView.swift in Sources */,
+				04199B50277B5941007A961D /* WordClockView.swift in Sources */,
 				04199B41277B586E007A961D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,14 +340,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Pong/Info.plist;
+				INFOPLIST_FILE = WordClock/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.Pong;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WordClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -361,14 +361,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = Pong/Info.plist;
+				INFOPLIST_FILE = WordClock/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.Pong;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WordClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = saver;
@@ -380,15 +380,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PongDebug/PongDebug.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WordClockDebug/WordClockDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PongDebug/Info.plist;
+				INFOPLIST_FILE = WordClockDebug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.PongDebug;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WordClockDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -401,15 +401,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PongDebug/PongDebug.entitlements;
+				CODE_SIGN_ENTITLEMENTS = WordClockDebug/WordClockDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = PongDebug/Info.plist;
+				INFOPLIST_FILE = WordClockDebug/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = none.PongDebug;
+				PRODUCT_BUNDLE_IDENTIFIER = none.WordClockDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -420,7 +420,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04199B22277B573E007A961D /* Build configuration list for PBXProject "Pong" */ = {
+		04199B22277B573E007A961D /* Build configuration list for PBXProject "WordClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04199B30277B573E007A961D /* Debug */,
@@ -429,7 +429,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04199B32277B573E007A961D /* Build configuration list for PBXNativeTarget "Pong" */ = {
+		04199B32277B573E007A961D /* Build configuration list for PBXNativeTarget "WordClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04199B33277B573E007A961D /* Debug */,
@@ -438,7 +438,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04199B4B277B587A007A961D /* Build configuration list for PBXNativeTarget "PongDebug" */ = {
+		04199B4B277B587A007A961D /* Build configuration list for PBXNativeTarget "WordClockDebug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04199B4C277B587A007A961D /* Debug */,

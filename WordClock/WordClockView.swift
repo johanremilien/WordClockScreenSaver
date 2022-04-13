@@ -1,7 +1,7 @@
 
 import ScreenSaver
 
-class PongView: ScreenSaverView {
+class WordClockView: ScreenSaverView {
 
     private var ballPosition: CGPoint = .zero
     private var ballVelocity: CGVector = .zero

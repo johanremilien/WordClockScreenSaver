@@ -26,7 +26,7 @@ class ViewController: NSViewController {
 
     // MARK: - Helper Functions
     private func addScreensaver() {
-        if let saver = PongView(frame: view.frame, isPreview: false) {
+        if let saver = WordClockView(frame: view.frame, isPreview: false) {
             view.addSubview(saver)
             self.saver = saver
         }
